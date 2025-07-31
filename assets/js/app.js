@@ -5,7 +5,6 @@ const items = [
     { id: 4, name: "Starlight Succulent", use: "Indoor Plants", price: "Rs.27200", img: "assets/images/product-02-400x432.jpg",stars:"⭐⭐⭐⭐⭐" },
     { id: 5, name: "Tropical Breeze", use: "Indoor Plants", price: "Rs.28500", img: "assets/images/steptodown.com839598.jpg",stars:"⭐⭐⭐" },
     { id: 6, name: "Zen Bamboo Grove", use: "Indoor Plants", price: "Rs.30000", img: "assets/images/product-01-400x434.jpg",stars:"⭐⭐⭐⭐⭐⭐" },
-
 ];
 const container = document.getElementById('product-list');
 if (container) {
