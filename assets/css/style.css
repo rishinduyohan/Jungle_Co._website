@@ -1,20 +1,37 @@
-  .hero {
-      background: url('https://source.unsplash.com/1600x600/?plants') no-repeat center center/cover;
-      height: 600px;
-      color: white;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    .product-card img {
-      height: 200px;
-      object-fit: cover;
-    }
-    footer {
-      background: #ffffffa0;
-      color: rgb(27, 26, 26);
-      padding: 20px 0;
-      text-align: center;
-    }
+.hero {
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background: #e7e7e7a0;
+    color: rgb(27, 26, 26);
+    text-align: center;
+}
+
+.hero p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: 700;
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
