@@ -7,7 +7,12 @@
     align-items: center;
     flex-direction: column;
 }
-
+.heroAbout{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .product-card img {
     height: 200px;
     object-fit: cover;
@@ -25,6 +30,16 @@ footer {
     font-weight: 600;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero h6 {
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 h1 {
