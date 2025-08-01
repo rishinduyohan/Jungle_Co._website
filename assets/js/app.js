@@ -89,3 +89,24 @@ if (container) {
         container.appendChild(card);
     });
 }
+const footer = document.getElementById('footerId');
+if (footer) {
+    footer.innerHTML = `
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Jungle Co.</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr style="margin:10px 50px 10px 50px;">
+        <p>Copyright &copy; 2025. All Rights Reserved By Rishindu Yohan</p>
+    `;
+}
