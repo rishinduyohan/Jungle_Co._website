@@ -43,7 +43,7 @@ if (navbarContainer) {
                     </div>
                             <div class="col-md-6 col-lg-4 ">
                                 <li class="nav-item">
-                                    <a class="nav-link  text-white" href="login.html"><i class="bi bi-info-circle"></i> Log In</a>
+                                    <a class="nav-link  text-white" href="login.html"><i class="bi bi-info-circle"></i>Log In</a>
                                 </li>
                             </div>
                         </ul>
@@ -51,7 +51,7 @@ if (navbarContainer) {
                     <div class="collapse navbar-collapse justify-content-end">
                         <ul class="navbar-nav m-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="login.html"><i class="bi bi-house-door"></i>
+                                <a class="nav-link text-white" aria-current="page" href="login.html"><i class="bi bi-house-door"></i>
                                     Sign In
                                     | </a>
                             </li>
