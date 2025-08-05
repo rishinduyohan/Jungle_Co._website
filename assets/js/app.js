@@ -107,6 +107,6 @@ if (footer) {
             </div>
         </nav>
         <hr style="margin:10px 50px 10px 50px;">
-        <p>Copyright &copy; 2025. All Rights Reserved By Rishindu Yohan</p>
+        <p>&copy; 2025. All Rights Reserved By Rishindu Yohan</p>
     `;
 }
